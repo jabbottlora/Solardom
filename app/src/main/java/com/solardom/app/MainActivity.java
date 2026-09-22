@@ -55,7 +55,7 @@ public class MainActivity extends Activity implements SensorEventListener {
         panelW=input("Potencia del panel (W)","550"); box.addView(panelW);
         hsp=input("Horas sol pico HSP","5"); box.addView(hsp);
         perdidas=input("Pérdidas del sistema (%)","20"); box.addView(perdidas);
-        bateria=input("Capacidad batería (kWh)","10"); box.addView(bateria);
+        bateria=input("Capacidad batería (kWh)"); box.addView(bateria);
         dod=input("Profundidad de descarga DoD (%)","80"); box.addView(dod);
         autonomia=input("Autonomía deseada (días)","1"); box.addView(autonomia);
         tarifa=input("Tarifa eléctrica (RD$/kWh, opcional)","12"); box.addView(tarifa);
